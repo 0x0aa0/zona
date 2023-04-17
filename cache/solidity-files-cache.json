@@ -1,0 +1,1615 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "build_infos": "out/build-info",
+    "sources": "src",
+    "tests": "test",
+    "scripts": "script",
+    "libraries": [
+      "lib"
+    ]
+  },
+  "files": {
+    "lib/ethfs/packages/contracts/src/File.sol": {
+      "lastModificationDate": 1673330243952,
+      "contentHash": "6f6d96e3fc9c7ae767a8685b70f1cac1",
+      "sourceName": "lib/ethfs/packages/contracts/src/File.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "File": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "File.sol/File.json"
+        }
+      }
+    },
+    "lib/ethfs/packages/contracts/src/IContentStore.sol": {
+      "lastModificationDate": 1673330243952,
+      "contentHash": "2269343cd99b90f7c499dd9ebdbf805a",
+      "sourceName": "lib/ethfs/packages/contracts/src/IContentStore.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "IContentStore": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "IContentStore.sol/IContentStore.json"
+        }
+      }
+    },
+    "lib/ethfs/packages/contracts/src/IFileStore.sol": {
+      "lastModificationDate": 1673330243952,
+      "contentHash": "6e8cf7532633e1569211663521506bfe",
+      "sourceName": "lib/ethfs/packages/contracts/src/IFileStore.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/ethfs/packages/contracts/src/File.sol",
+        "lib/ethfs/packages/contracts/src/IContentStore.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "IFileStore": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "IFileStore.sol/IFileStore.json"
+        }
+      }
+    },
+    "lib/forge-std/src/Base.sol": {
+      "lastModificationDate": 1673329733622,
+      "contentHash": "1870c8c1d5470db8c3e956c839db8364",
+      "sourceName": "lib/forge-std/src/Base.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/Vm.sol"
+      ],
+      "versionRequirement": ">=0.6.2, <0.9.0",
+      "artifacts": {
+        "CommonBase": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Base.sol/CommonBase.json"
+        },
+        "ScriptBase": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Base.sol/ScriptBase.json"
+        },
+        "TestBase": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Base.sol/TestBase.json"
+        }
+      }
+    },
+    "lib/forge-std/src/Script.sol": {
+      "lastModificationDate": 1673329733622,
+      "contentHash": "83c39354c1e43190bce4dc43860dc786",
+      "sourceName": "lib/forge-std/src/Script.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol"
+      ],
+      "versionRequirement": ">=0.6.2, <0.9.0",
+      "artifacts": {
+        "Script": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Script.sol/Script.json"
+        }
+      }
+    },
+    "lib/forge-std/src/StdAssertions.sol": {
+      "lastModificationDate": 1673329733622,
+      "contentHash": "93fa608efd4df1e671b043437fddd457",
+      "sourceName": "lib/forge-std/src/StdAssertions.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/StdMath.sol",
+        "lib/solmate/lib/ds-test/src/test.sol"
+      ],
+      "versionRequirement": ">=0.6.2, <0.9.0",
+      "artifacts": {
+        "StdAssertions": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "StdAssertions.sol/StdAssertions.json"
+        }
+      }
+    },
+    "lib/forge-std/src/StdChains.sol": {
+      "lastModificationDate": 1673329733622,
+      "contentHash": "80138bc1765b08a6db58237c26985fd9",
+      "sourceName": "lib/forge-std/src/StdChains.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/Vm.sol"
+      ],
+      "versionRequirement": ">=0.6.2, <0.9.0",
+      "artifacts": {
+        "StdChains": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "StdChains.sol/StdChains.json"
+        }
+      }
+    },
+    "lib/forge-std/src/StdCheats.sol": {
+      "lastModificationDate": 1673329733622,
+      "contentHash": "fa245ffd8b36936bbb114ab441d5756f",
+      "sourceName": "lib/forge-std/src/StdCheats.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/Vm.sol"
+      ],
+      "versionRequirement": ">=0.6.2, <0.9.0",
+      "artifacts": {
+        "StdCheats": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "StdCheats.sol/StdCheats.json"
+        },
+        "StdCheatsSafe": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "StdCheats.sol/StdCheatsSafe.json"
+        }
+      }
+    },
+    "lib/forge-std/src/StdError.sol": {
+      "lastModificationDate": 1673329733622,
+      "contentHash": "64c896e1276a291776e5ea5aecb3870a",
+      "sourceName": "lib/forge-std/src/StdError.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.2, <0.9.0",
+      "artifacts": {
+        "stdError": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "StdError.sol/stdError.json"
+        }
+      }
+    },
+    "lib/forge-std/src/StdJson.sol": {
+      "lastModificationDate": 1673329733622,
+      "contentHash": "016de2d7ee55960094cc97ec792025bb",
+      "sourceName": "lib/forge-std/src/StdJson.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/Vm.sol"
+      ],
+      "versionRequirement": ">=0.6.0, <0.9.0",
+      "artifacts": {
+        "stdJson": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "StdJson.sol/stdJson.json"
+        }
+      }
+    },
+    "lib/forge-std/src/StdMath.sol": {
+      "lastModificationDate": 1673329733622,
+      "contentHash": "9da8f453eba6bb98f3d75bc6822bfb29",
+      "sourceName": "lib/forge-std/src/StdMath.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.2, <0.9.0",
+      "artifacts": {
+        "stdMath": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "StdMath.sol/stdMath.json"
+        }
+      }
+    },
+    "lib/forge-std/src/StdStorage.sol": {
+      "lastModificationDate": 1673329733622,
+      "contentHash": "1b6b8a6cbaaaf5a72860a56f0cde4e33",
+      "sourceName": "lib/forge-std/src/StdStorage.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/Vm.sol"
+      ],
+      "versionRequirement": ">=0.6.2, <0.9.0",
+      "artifacts": {
+        "stdStorage": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "StdStorage.sol/stdStorage.json"
+        },
+        "stdStorageSafe": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "StdStorage.sol/stdStorageSafe.json"
+        }
+      }
+    },
+    "lib/forge-std/src/StdUtils.sol": {
+      "lastModificationDate": 1673329733622,
+      "contentHash": "ec75addbeee075c61fa5aff2faee0465",
+      "sourceName": "lib/forge-std/src/StdUtils.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/Vm.sol"
+      ],
+      "versionRequirement": ">=0.6.2, <0.9.0",
+      "artifacts": {
+        "StdUtils": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "StdUtils.sol/StdUtils.json"
+        }
+      }
+    },
+    "lib/forge-std/src/Test.sol": {
+      "lastModificationDate": 1673329733622,
+      "contentHash": "9ca73393dbc2f8cde2aa628f8d05c5d5",
+      "sourceName": "lib/forge-std/src/Test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/StdAssertions.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdError.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/solmate/lib/ds-test/src/test.sol"
+      ],
+      "versionRequirement": ">=0.6.2, <0.9.0",
+      "artifacts": {
+        "Test": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Test.sol/Test.json"
+        }
+      }
+    },
+    "lib/forge-std/src/Vm.sol": {
+      "lastModificationDate": 1673329733622,
+      "contentHash": "7d92321fbeea01d10f89778af1d0e074",
+      "sourceName": "lib/forge-std/src/Vm.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.2, <0.9.0",
+      "artifacts": {
+        "Vm": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Vm.sol/Vm.json"
+        },
+        "VmSafe": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Vm.sol/VmSafe.json"
+        }
+      }
+    },
+    "lib/forge-std/src/console.sol": {
+      "lastModificationDate": 1673329733622,
+      "contentHash": "100b8a33b917da1147740d7ab8b0ded3",
+      "sourceName": "lib/forge-std/src/console.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.22, <0.9.0",
+      "artifacts": {
+        "console": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "console.sol/console.json"
+        }
+      }
+    },
+    "lib/forge-std/src/console2.sol": {
+      "lastModificationDate": 1673329733622,
+      "contentHash": "2096b4e5f252c5df9909cccbe3d2da2e",
+      "sourceName": "lib/forge-std/src/console2.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.22, <0.9.0",
+      "artifacts": {
+        "console2": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "console2.sol/console2.json"
+        }
+      }
+    },
+    "lib/forge-std/src/interfaces/IERC1155.sol": {
+      "lastModificationDate": 1673329733622,
+      "contentHash": "8bcc1ec3648adc03e4ec91dbd5c2369d",
+      "sourceName": "lib/forge-std/src/interfaces/IERC1155.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/interfaces/IERC165.sol"
+      ],
+      "versionRequirement": ">=0.6.2",
+      "artifacts": {
+        "IERC1155": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "IERC1155.sol/IERC1155.json"
+        }
+      }
+    },
+    "lib/forge-std/src/interfaces/IERC165.sol": {
+      "lastModificationDate": 1673329733622,
+      "contentHash": "90fe5e2e3ed432d6f3b408e7c9e8a739",
+      "sourceName": "lib/forge-std/src/interfaces/IERC165.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.2",
+      "artifacts": {
+        "IERC165": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "IERC165.sol/IERC165.json"
+        }
+      }
+    },
+    "lib/solmate/lib/ds-test/src/test.sol": {
+      "lastModificationDate": 1673329734432,
+      "contentHash": "962996f0e05d5218857a538a62d7c47e",
+      "sourceName": "lib/solmate/lib/ds-test/src/test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "DSTest": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "test.sol/DSTest.json"
+        }
+      }
+    },
+    "lib/solmate/src/auth/Owned.sol": {
+      "lastModificationDate": 1673329734042,
+      "contentHash": "11fec455b72d2743b77d783d6017e1e9",
+      "sourceName": "lib/solmate/src/auth/Owned.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "Owned": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Owned.sol/Owned.json"
+        }
+      }
+    },
+    "lib/solmate/src/tokens/ERC1155.sol": {
+      "lastModificationDate": 1673329734042,
+      "contentHash": "558676409e429f6c4f2deef39106e3c0",
+      "sourceName": "lib/solmate/src/tokens/ERC1155.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "ERC1155": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "ERC1155.sol/ERC1155.json"
+        },
+        "ERC1155TokenReceiver": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "ERC1155.sol/ERC1155TokenReceiver.json"
+        }
+      }
+    },
+    "script/NCA.s.sol": {
+      "lastModificationDate": 1675393066962,
+      "contentHash": "165a9b36a6936b9abcd577b922db318c",
+      "sourceName": "script/NCA.s.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "src/ZooOfNeuralAutomata.sol",
+        "src/interfaces/INeuralAutomataEngine.sol",
+        "src/interfaces/IZooOfNeuralAutomata.sol",
+        "src/sales/Spaces.sol",
+        "src/utils/Base64.sol"
+      ],
+      "versionRequirement": "=0.8.15",
+      "artifacts": {
+        "Deploy": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "NCA.s.sol/Deploy.json"
+        }
+      }
+    },
+    "src/NeuralAutomataEngine.sol": {
+      "lastModificationDate": 1674016115425,
+      "contentHash": "61f941427cab7dbe49193c1e22c5f6e8",
+      "sourceName": "src/NeuralAutomataEngine.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/ethfs/packages/contracts/src/File.sol",
+        "lib/ethfs/packages/contracts/src/IContentStore.sol",
+        "lib/ethfs/packages/contracts/src/IFileStore.sol",
+        "src/interfaces/INeuralAutomataEngine.sol",
+        "src/utils/Base64.sol"
+      ],
+      "versionRequirement": "=0.8.15",
+      "artifacts": {
+        "NeuralAutomataEngine": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "NeuralAutomataEngine.sol/NeuralAutomataEngine.json"
+        }
+      }
+    },
+    "src/ZooOfNeuralAutomata.sol": {
+      "lastModificationDate": 1674016116115,
+      "contentHash": "a321ecaa47cb1f5ef3dca7f41a5ebe3f",
+      "sourceName": "src/ZooOfNeuralAutomata.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "src/interfaces/INeuralAutomataEngine.sol",
+        "src/interfaces/IZooOfNeuralAutomata.sol",
+        "src/utils/Base64.sol"
+      ],
+      "versionRequirement": "=0.8.15",
+      "artifacts": {
+        "ZooOfNeuralAutomata": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "ZooOfNeuralAutomata.sol/ZooOfNeuralAutomata.json"
+        }
+      }
+    },
+    "src/interfaces/INeuralAutomataEngine.sol": {
+      "lastModificationDate": 1674016121265,
+      "contentHash": "c97c22c2e8ca4466c04a5be07a8070b0",
+      "sourceName": "src/interfaces/INeuralAutomataEngine.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.15",
+      "artifacts": {
+        "INeuralAutomataEngine": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "INeuralAutomataEngine.sol/INeuralAutomataEngine.json"
+        }
+      }
+    },
+    "src/interfaces/IOschuns.sol": {
+      "lastModificationDate": 1674091299778,
+      "contentHash": "f5641a79fb3af13ec08ddc0f66b62ad2",
+      "sourceName": "src/interfaces/IOschuns.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.15",
+      "artifacts": {
+        "IOschuns": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "IOschuns.sol/IOschuns.json"
+        }
+      }
+    },
+    "src/interfaces/IZooOfNeuralAutomata.sol": {
+      "lastModificationDate": 1674016119595,
+      "contentHash": "80f82dfabdd6feeef42a965dfbafe677",
+      "sourceName": "src/interfaces/IZooOfNeuralAutomata.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/interfaces/INeuralAutomataEngine.sol"
+      ],
+      "versionRequirement": "=0.8.15",
+      "artifacts": {
+        "IZooOfNeuralAutomata": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "IZooOfNeuralAutomata.sol/IZooOfNeuralAutomata.json"
+        }
+      }
+    },
+    "src/sales/Conways.sol": {
+      "lastModificationDate": 1674016119005,
+      "contentHash": "6e9536e17044eb3afbcb60e6c13c9a96",
+      "sourceName": "src/sales/Conways.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/solmate/src/auth/Owned.sol",
+        "src/interfaces/INeuralAutomataEngine.sol",
+        "src/interfaces/IZooOfNeuralAutomata.sol"
+      ],
+      "versionRequirement": "=0.8.15",
+      "artifacts": {
+        "Conways": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Conways.sol/Conways.json"
+        }
+      }
+    },
+    "src/sales/Enfernous.sol": {
+      "lastModificationDate": 1674943556060,
+      "contentHash": "aebbb4ecaea40f04d3d9480bfb67eb68",
+      "sourceName": "src/sales/Enfernous.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/interfaces/IERC1155.sol",
+        "lib/forge-std/src/interfaces/IERC165.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "src/interfaces/INeuralAutomataEngine.sol",
+        "src/interfaces/IZooOfNeuralAutomata.sol"
+      ],
+      "versionRequirement": "=0.8.15",
+      "artifacts": {
+        "Enfernous": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Enfernous.sol/Enfernous.json"
+        }
+      }
+    },
+    "src/sales/Oschuns.sol": {
+      "lastModificationDate": 1674106480511,
+      "contentHash": "a999d6954905abd7b4eb0b4a05b211f7",
+      "sourceName": "src/sales/Oschuns.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/interfaces/IERC1155.sol",
+        "lib/forge-std/src/interfaces/IERC165.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "src/interfaces/INeuralAutomataEngine.sol",
+        "src/interfaces/IOschuns.sol",
+        "src/interfaces/IZooOfNeuralAutomata.sol"
+      ],
+      "versionRequirement": "=0.8.15",
+      "artifacts": {
+        "Oschuns": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Oschuns.sol/Oschuns.json"
+        }
+      }
+    },
+    "src/sales/Quaqs.sol": {
+      "lastModificationDate": 1674016117715,
+      "contentHash": "090bed3e025e995ae6b13114d2d6d554",
+      "sourceName": "src/sales/Quaqs.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/solmate/src/auth/Owned.sol",
+        "src/interfaces/INeuralAutomataEngine.sol",
+        "src/interfaces/IZooOfNeuralAutomata.sol"
+      ],
+      "versionRequirement": "=0.8.15",
+      "artifacts": {
+        "Quaqs": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Quaqs.sol/Quaqs.json"
+        }
+      }
+    },
+    "src/sales/Spaces.sol": {
+      "lastModificationDate": 1675382659421,
+      "contentHash": "e7480d62a3cc6a6cbae90137e3fc9d2a",
+      "sourceName": "src/sales/Spaces.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/solmate/src/auth/Owned.sol",
+        "src/interfaces/INeuralAutomataEngine.sol",
+        "src/interfaces/IZooOfNeuralAutomata.sol"
+      ],
+      "versionRequirement": "=0.8.15",
+      "artifacts": {
+        "Spaces": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Spaces.sol/Spaces.json"
+        }
+      }
+    },
+    "src/sales/Wavvas.sol": {
+      "lastModificationDate": 1674101927672,
+      "contentHash": "7766cd2810658186daaa0ae49c6fe0a4",
+      "sourceName": "src/sales/Wavvas.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/solmate/src/auth/Owned.sol",
+        "src/interfaces/INeuralAutomataEngine.sol",
+        "src/interfaces/IOschuns.sol",
+        "src/interfaces/IZooOfNeuralAutomata.sol"
+      ],
+      "versionRequirement": "=0.8.15",
+      "artifacts": {
+        "Wavvas": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Wavvas.sol/Wavvas.json"
+        }
+      }
+    },
+    "src/utils/Base64.sol": {
+      "lastModificationDate": 1674016113475,
+      "contentHash": "0408619d18055f180ccec677264d018e",
+      "sourceName": "src/utils/Base64.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.15",
+      "artifacts": {
+        "Base64": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "Base64.sol/Base64.json"
+        }
+      }
+    },
+    "test/NCA.t.sol": {
+      "lastModificationDate": 1674063205083,
+      "contentHash": "50faafd4097f47ec0510f6a18aaf811f",
+      "sourceName": "test/NCA.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/ethfs/packages/contracts/src/File.sol",
+        "lib/ethfs/packages/contracts/src/IContentStore.sol",
+        "lib/ethfs/packages/contracts/src/IFileStore.sol",
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/StdAssertions.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdError.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/forge-std/src/interfaces/IERC1155.sol",
+        "lib/forge-std/src/interfaces/IERC165.sol",
+        "lib/solmate/lib/ds-test/src/test.sol",
+        "lib/solmate/src/auth/Owned.sol",
+        "lib/solmate/src/tokens/ERC1155.sol",
+        "src/NeuralAutomataEngine.sol",
+        "src/ZooOfNeuralAutomata.sol",
+        "src/interfaces/INeuralAutomataEngine.sol",
+        "src/interfaces/IOschuns.sol",
+        "src/interfaces/IZooOfNeuralAutomata.sol",
+        "src/sales/Conways.sol",
+        "src/sales/Oschuns.sol",
+        "src/sales/Quaqs.sol",
+        "src/utils/Base64.sol"
+      ],
+      "versionRequirement": "=0.8.15",
+      "artifacts": {
+        "NCATest": {
+          "0.8.15+commit.e14f2714.Linux.gcc": "NCA.t.sol/NCATest.json"
+        }
+      }
+    }
+  }
+}

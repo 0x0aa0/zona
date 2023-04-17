@@ -1,0 +1,1156 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "baseScript",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "p5",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "seed",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "bg",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "fg1",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "fg2",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "matrix",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "activation",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "rand",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "mods",
+              "type": "string"
+            }
+          ],
+          "internalType": "struct NCAParams",
+          "name": "_params",
+          "type": "tuple"
+        }
+      ],
+      "name": "page",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "seed",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "bg",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "fg1",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "fg2",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "matrix",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "activation",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "rand",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "mods",
+              "type": "string"
+            }
+          ],
+          "internalType": "struct NCAParams",
+          "name": "_params",
+          "type": "tuple"
+        }
+      ],
+      "name": "parameters",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "seed",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "bg",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "fg1",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "fg2",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "matrix",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "activation",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "rand",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "mods",
+              "type": "string"
+            }
+          ],
+          "internalType": "struct NCAParams",
+          "name": "_params",
+          "type": "tuple"
+        }
+      ],
+      "name": "script",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "baseScript()": "41e0652e",
+    "p5()": "33705526",
+    "page((string,string,string,string,string,string,string,string))": "7ba4965b",
+    "parameters((string,string,string,string,string,string,string,string))": "f238168c",
+    "script((string,string,string,string,string,string,string,string))": "65e433b9"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"baseScript\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"p5\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"components\":[{\"internalType\":\"string\",\"name\":\"seed\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"bg\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"fg1\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"fg2\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"matrix\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"activation\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"rand\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"mods\",\"type\":\"string\"}],\"internalType\":\"struct NCAParams\",\"name\":\"_params\",\"type\":\"tuple\"}],\"name\":\"page\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"components\":[{\"internalType\":\"string\",\"name\":\"seed\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"bg\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"fg1\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"fg2\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"matrix\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"activation\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"rand\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"mods\",\"type\":\"string\"}],\"internalType\":\"struct NCAParams\",\"name\":\"_params\",\"type\":\"tuple\"}],\"name\":\"parameters\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"components\":[{\"internalType\":\"string\",\"name\":\"seed\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"bg\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"fg1\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"fg2\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"matrix\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"activation\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"rand\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"mods\",\"type\":\"string\"}],\"internalType\":\"struct NCAParams\",\"name\":\"_params\",\"type\":\"tuple\"}],\"name\":\"script\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/INeuralAutomataEngine.sol\":\"INeuralAutomataEngine\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"none\"},\"optimizer\":{\"enabled\":true,\"runs\":1000000},\"remappings\":[\":ds-test/=lib/solmate/lib/ds-test/src/\",\":ethfs/=lib/ethfs/\",\":ethier/=lib/ethfs/packages/contracts/lib/ethier/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin/=lib/ethfs/packages/contracts/lib/openzeppelin-contracts/contracts/\",\":solady/=lib/ethfs/packages/contracts/lib/solady/src/\",\":solmate/=lib/solmate/src/\"]},\"sources\":{\"src/interfaces/INeuralAutomataEngine.sol\":{\"keccak256\":\"0xc79fc063dc471a7406c3b832e07f26e05910869d3a84997898451c4f69b57cdb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://416e3cdd7f08fbd129f3c86cee2e1b178e2f4ebc6e67a176a01f6b3779a29e7a\",\"dweb:/ipfs/QmVmrZztXJYQxrouWnfU1m6xQ3KtZAtvXAsjJxYWLRrkbu\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.15+commit.e14f2714"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "baseScript",
+          "outputs": [
+            {
+              "internalType": "string",
+              "name": "",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "p5",
+          "outputs": [
+            {
+              "internalType": "string",
+              "name": "",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "struct NCAParams",
+              "name": "_params",
+              "type": "tuple",
+              "components": [
+                {
+                  "internalType": "string",
+                  "name": "seed",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "bg",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "fg1",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "fg2",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "matrix",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "activation",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "rand",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "mods",
+                  "type": "string"
+                }
+              ]
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "page",
+          "outputs": [
+            {
+              "internalType": "string",
+              "name": "",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "struct NCAParams",
+              "name": "_params",
+              "type": "tuple",
+              "components": [
+                {
+                  "internalType": "string",
+                  "name": "seed",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "bg",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "fg1",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "fg2",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "matrix",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "activation",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "rand",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "mods",
+                  "type": "string"
+                }
+              ]
+            }
+          ],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "parameters",
+          "outputs": [
+            {
+              "internalType": "string",
+              "name": "",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "struct NCAParams",
+              "name": "_params",
+              "type": "tuple",
+              "components": [
+                {
+                  "internalType": "string",
+                  "name": "seed",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "bg",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "fg1",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "fg2",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "matrix",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "activation",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "rand",
+                  "type": "string"
+                },
+                {
+                  "internalType": "string",
+                  "name": "mods",
+                  "type": "string"
+                }
+              ]
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "script",
+          "outputs": [
+            {
+              "internalType": "string",
+              "name": "",
+              "type": "string"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/solmate/lib/ds-test/src/",
+        ":ethfs/=lib/ethfs/",
+        ":ethier/=lib/ethfs/packages/contracts/lib/ethier/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin/=lib/ethfs/packages/contracts/lib/openzeppelin-contracts/contracts/",
+        ":solady/=lib/ethfs/packages/contracts/lib/solady/src/",
+        ":solmate/=lib/solmate/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 1000000
+      },
+      "metadata": {
+        "bytecodeHash": "none"
+      },
+      "compilationTarget": {
+        "src/interfaces/INeuralAutomataEngine.sol": "INeuralAutomataEngine"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/interfaces/INeuralAutomataEngine.sol": {
+        "keccak256": "0xc79fc063dc471a7406c3b832e07f26e05910869d3a84997898451c4f69b57cdb",
+        "urls": [
+          "bzz-raw://416e3cdd7f08fbd129f3c86cee2e1b178e2f4ebc6e67a176a01f6b3779a29e7a",
+          "dweb:/ipfs/QmVmrZztXJYQxrouWnfU1m6xQ3KtZAtvXAsjJxYWLRrkbu"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/interfaces/INeuralAutomataEngine.sol",
+    "id": 27233,
+    "exportedSymbols": {
+      "INeuralAutomataEngine": [
+        27232
+      ],
+      "NCAParams": [
+        27197
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:623:25",
+    "nodes": [
+      {
+        "id": 27180,
+        "nodeType": "PragmaDirective",
+        "src": "33:23:25",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "0.8",
+          ".15"
+        ]
+      },
+      {
+        "id": 27197,
+        "nodeType": "StructDefinition",
+        "src": "60:169:25",
+        "nodes": [],
+        "canonicalName": "NCAParams",
+        "members": [
+          {
+            "constant": false,
+            "id": 27182,
+            "mutability": "mutable",
+            "name": "seed",
+            "nameLocation": "91:4:25",
+            "nodeType": "VariableDeclaration",
+            "scope": 27197,
+            "src": "84:11:25",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage_ptr",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 27181,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "84:6:25",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 27184,
+            "mutability": "mutable",
+            "name": "bg",
+            "nameLocation": "109:2:25",
+            "nodeType": "VariableDeclaration",
+            "scope": 27197,
+            "src": "102:9:25",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage_ptr",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 27183,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "102:6:25",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 27186,
+            "mutability": "mutable",
+            "name": "fg1",
+            "nameLocation": "125:3:25",
+            "nodeType": "VariableDeclaration",
+            "scope": 27197,
+            "src": "118:10:25",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage_ptr",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 27185,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "118:6:25",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 27188,
+            "mutability": "mutable",
+            "name": "fg2",
+            "nameLocation": "142:3:25",
+            "nodeType": "VariableDeclaration",
+            "scope": 27197,
+            "src": "135:10:25",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage_ptr",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 27187,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "135:6:25",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 27190,
+            "mutability": "mutable",
+            "name": "matrix",
+            "nameLocation": "159:6:25",
+            "nodeType": "VariableDeclaration",
+            "scope": 27197,
+            "src": "152:13:25",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage_ptr",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 27189,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "152:6:25",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 27192,
+            "mutability": "mutable",
+            "name": "activation",
+            "nameLocation": "179:10:25",
+            "nodeType": "VariableDeclaration",
+            "scope": 27197,
+            "src": "172:17:25",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage_ptr",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 27191,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "172:6:25",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 27194,
+            "mutability": "mutable",
+            "name": "rand",
+            "nameLocation": "203:4:25",
+            "nodeType": "VariableDeclaration",
+            "scope": 27197,
+            "src": "196:11:25",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage_ptr",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 27193,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "196:6:25",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 27196,
+            "mutability": "mutable",
+            "name": "mods",
+            "nameLocation": "221:4:25",
+            "nodeType": "VariableDeclaration",
+            "scope": 27197,
+            "src": "214:11:25",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage_ptr",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 27195,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "214:6:25",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "name": "NCAParams",
+        "nameLocation": "67:9:25",
+        "scope": 27233,
+        "visibility": "public"
+      },
+      {
+        "id": 27232,
+        "nodeType": "ContractDefinition",
+        "src": "233:423:25",
+        "nodes": [
+          {
+            "id": 27202,
+            "nodeType": "FunctionDefinition",
+            "src": "272:59:25",
+            "nodes": [],
+            "functionSelector": "41e0652e",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "baseScript",
+            "nameLocation": "281:10:25",
+            "parameters": {
+              "id": 27198,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "291:2:25"
+            },
+            "returnParameters": {
+              "id": 27201,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 27200,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27202,
+                  "src": "316:13:25",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 27199,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "316:6:25",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "315:15:25"
+            },
+            "scope": 27232,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 27210,
+            "nodeType": "FunctionDefinition",
+            "src": "339:83:25",
+            "nodes": [],
+            "functionSelector": "f238168c",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "parameters",
+            "nameLocation": "348:10:25",
+            "parameters": {
+              "id": 27206,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 27205,
+                  "mutability": "mutable",
+                  "name": "_params",
+                  "nameLocation": "376:7:25",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27210,
+                  "src": "359:24:25",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_NCAParams_$27197_memory_ptr",
+                    "typeString": "struct NCAParams"
+                  },
+                  "typeName": {
+                    "id": 27204,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 27203,
+                      "name": "NCAParams",
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 27197,
+                      "src": "359:9:25"
+                    },
+                    "referencedDeclaration": 27197,
+                    "src": "359:9:25",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_NCAParams_$27197_storage_ptr",
+                      "typeString": "struct NCAParams"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "358:26:25"
+            },
+            "returnParameters": {
+              "id": 27209,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 27208,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27210,
+                  "src": "407:13:25",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 27207,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "407:6:25",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "406:15:25"
+            },
+            "scope": 27232,
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 27215,
+            "nodeType": "FunctionDefinition",
+            "src": "430:51:25",
+            "nodes": [],
+            "functionSelector": "33705526",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "p5",
+            "nameLocation": "439:2:25",
+            "parameters": {
+              "id": 27211,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "441:2:25"
+            },
+            "returnParameters": {
+              "id": 27214,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 27213,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27215,
+                  "src": "466:13:25",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 27212,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "466:6:25",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "465:15:25"
+            },
+            "scope": 27232,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 27223,
+            "nodeType": "FunctionDefinition",
+            "src": "489:79:25",
+            "nodes": [],
+            "functionSelector": "65e433b9",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "script",
+            "nameLocation": "498:6:25",
+            "parameters": {
+              "id": 27219,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 27218,
+                  "mutability": "mutable",
+                  "name": "_params",
+                  "nameLocation": "522:7:25",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27223,
+                  "src": "505:24:25",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_NCAParams_$27197_memory_ptr",
+                    "typeString": "struct NCAParams"
+                  },
+                  "typeName": {
+                    "id": 27217,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 27216,
+                      "name": "NCAParams",
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 27197,
+                      "src": "505:9:25"
+                    },
+                    "referencedDeclaration": 27197,
+                    "src": "505:9:25",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_NCAParams_$27197_storage_ptr",
+                      "typeString": "struct NCAParams"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "504:26:25"
+            },
+            "returnParameters": {
+              "id": 27222,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 27221,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27223,
+                  "src": "553:13:25",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 27220,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "553:6:25",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "552:15:25"
+            },
+            "scope": 27232,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 27231,
+            "nodeType": "FunctionDefinition",
+            "src": "576:77:25",
+            "nodes": [],
+            "functionSelector": "7ba4965b",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "page",
+            "nameLocation": "585:4:25",
+            "parameters": {
+              "id": 27227,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 27226,
+                  "mutability": "mutable",
+                  "name": "_params",
+                  "nameLocation": "607:7:25",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27231,
+                  "src": "590:24:25",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_NCAParams_$27197_memory_ptr",
+                    "typeString": "struct NCAParams"
+                  },
+                  "typeName": {
+                    "id": 27225,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 27224,
+                      "name": "NCAParams",
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 27197,
+                      "src": "590:9:25"
+                    },
+                    "referencedDeclaration": 27197,
+                    "src": "590:9:25",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_NCAParams_$27197_storage_ptr",
+                      "typeString": "struct NCAParams"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "589:26:25"
+            },
+            "returnParameters": {
+              "id": 27230,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 27229,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27231,
+                  "src": "638:13:25",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 27228,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "638:6:25",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "637:15:25"
+            },
+            "scope": 27232,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "INeuralAutomataEngine",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          27232
+        ],
+        "name": "INeuralAutomataEngine",
+        "nameLocation": "243:21:25",
+        "scope": 27233,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 25
+}

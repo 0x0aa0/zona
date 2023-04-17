@@ -1,0 +1,547 @@
+{
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "BidPlaced",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "FailedRefund",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "bidder",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "endTime",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "bidder(address)": "58042958",
+    "endTime()": "3197cbb6"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"_from\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"_value\",\"type\":\"uint256\"}],\"name\":\"BidPlaced\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"_to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"_value\",\"type\":\"uint256\"}],\"name\":\"FailedRefund\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"bidder\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"endTime\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/IOschuns.sol\":\"IOschuns\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"none\"},\"optimizer\":{\"enabled\":true,\"runs\":1000000},\"remappings\":[\":ds-test/=lib/solmate/lib/ds-test/src/\",\":ethfs/=lib/ethfs/\",\":ethier/=lib/ethfs/packages/contracts/lib/ethier/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin/=lib/ethfs/packages/contracts/lib/openzeppelin-contracts/contracts/\",\":solady/=lib/ethfs/packages/contracts/lib/solady/src/\",\":solmate/=lib/solmate/src/\"]},\"sources\":{\"src/interfaces/IOschuns.sol\":{\"keccak256\":\"0x6328a2f6593db2381c7c733f86981684fb77f8e5707768695e7ad4b320468dc9\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6cb7a85ae78f51a9622061fe28fc6280c716a216e6f5a1bfd0c83286028431bc\",\"dweb:/ipfs/QmfQsxP1y3eRJmSBoL5HnwRCrh4d5ChUkYR16kuj8dz1ae\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.15+commit.e14f2714"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_from",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "internalType": "uint256",
+              "name": "_value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "BidPlaced",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_to",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "internalType": "uint256",
+              "name": "_value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "type": "event",
+          "name": "FailedRefund",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "bidder",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "endTime",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/solmate/lib/ds-test/src/",
+        ":ethfs/=lib/ethfs/",
+        ":ethier/=lib/ethfs/packages/contracts/lib/ethier/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin/=lib/ethfs/packages/contracts/lib/openzeppelin-contracts/contracts/",
+        ":solady/=lib/ethfs/packages/contracts/lib/solady/src/",
+        ":solmate/=lib/solmate/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 1000000
+      },
+      "metadata": {
+        "bytecodeHash": "none"
+      },
+      "compilationTarget": {
+        "src/interfaces/IOschuns.sol": "IOschuns"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/interfaces/IOschuns.sol": {
+        "keccak256": "0x6328a2f6593db2381c7c733f86981684fb77f8e5707768695e7ad4b320468dc9",
+        "urls": [
+          "bzz-raw://6cb7a85ae78f51a9622061fe28fc6280c716a216e6f5a1bfd0c83286028431bc",
+          "dweb:/ipfs/QmfQsxP1y3eRJmSBoL5HnwRCrh4d5ChUkYR16kuj8dz1ae"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/interfaces/IOschuns.sol",
+    "id": 27260,
+    "exportedSymbols": {
+      "IOschuns": [
+        27259
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:275:26",
+    "nodes": [
+      {
+        "id": 27234,
+        "nodeType": "PragmaDirective",
+        "src": "33:23:26",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "0.8",
+          ".15"
+        ]
+      },
+      {
+        "id": 27259,
+        "nodeType": "ContractDefinition",
+        "src": "60:248:26",
+        "nodes": [
+          {
+            "id": 27240,
+            "nodeType": "EventDefinition",
+            "src": "86:47:26",
+            "nodes": [],
+            "anonymous": false,
+            "eventSelector": "3fabff0a9c3ecd6814702e247fa9733e5d0aa69e3a38590f92cb18f623a2254d",
+            "name": "BidPlaced",
+            "nameLocation": "92:9:26",
+            "parameters": {
+              "id": 27239,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 27236,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "_from",
+                  "nameLocation": "110:5:26",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27240,
+                  "src": "102:13:26",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 27235,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "102:7:26",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 27238,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "_value",
+                  "nameLocation": "125:6:26",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27240,
+                  "src": "117:14:26",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 27237,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "117:7:26",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "101:31:26"
+            }
+          },
+          {
+            "id": 27246,
+            "nodeType": "EventDefinition",
+            "src": "139:48:26",
+            "nodes": [],
+            "anonymous": false,
+            "eventSelector": "08148803da5497744918707293c46cccb9d74d3e52302a27354ecd9097a08b0c",
+            "name": "FailedRefund",
+            "nameLocation": "145:12:26",
+            "parameters": {
+              "id": 27245,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 27242,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "_to",
+                  "nameLocation": "166:3:26",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27246,
+                  "src": "158:11:26",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 27241,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "158:7:26",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 27244,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "_value",
+                  "nameLocation": "179:6:26",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27246,
+                  "src": "171:14:26",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 27243,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "171:7:26",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "157:29:26"
+            }
+          },
+          {
+            "id": 27251,
+            "nodeType": "FunctionDefinition",
+            "src": "199:50:26",
+            "nodes": [],
+            "functionSelector": "3197cbb6",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "endTime",
+            "nameLocation": "208:7:26",
+            "parameters": {
+              "id": 27247,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "215:2:26"
+            },
+            "returnParameters": {
+              "id": 27250,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 27249,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27251,
+                  "src": "240:7:26",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 27248,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "240:7:26",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "239:9:26"
+            },
+            "scope": 27259,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 27258,
+            "nodeType": "FunctionDefinition",
+            "src": "257:48:26",
+            "nodes": [],
+            "functionSelector": "58042958",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "bidder",
+            "nameLocation": "266:6:26",
+            "parameters": {
+              "id": 27254,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 27253,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27258,
+                  "src": "273:7:26",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 27252,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "273:7:26",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "272:9:26"
+            },
+            "returnParameters": {
+              "id": 27257,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 27256,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27258,
+                  "src": "299:4:26",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 27255,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "299:4:26",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "298:6:26"
+            },
+            "scope": 27259,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IOschuns",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          27259
+        ],
+        "name": "IOschuns",
+        "nameLocation": "70:8:26",
+        "scope": 27260,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 26
+}
